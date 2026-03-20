@@ -1,0 +1,94 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "A modern, clean office building exterior, representing professional facilities management.",
+      "imageUrl": "/background.jpg",
+      "imageHint": "modern building exterior"
+    },
+    {
+      "id": "profile-pic",
+      "description": "A professional portrait of Hellen Mong'are, Facilities Manager.",
+      "imageUrl": "/images/hellen-mongare.jpg",
+      "imageHint": "professional woman portrait"
+    },
+    {
+      "id": "construction-service",
+      "description": "A modern building under construction with cranes.",
+      "imageUrl": "/images/modern-building.jpg",
+      "imageHint": "building construction"
+    },
+    {
+      "id": "contract-service",
+      "description": "A person reviewing a construction contract document with a pen.",
+      "imageUrl": "/images/person-reviewing.webp",
+      "imageHint": "construction contract"
+    },
+    {
+      "id": "safety-service",
+      "description": "A construction worker wearing a hard hat and safety vest on a job site.",
+      "imageUrl": "/images/construction-worker.jpg",
+      "imageHint": "construction safety"
+    },
+    {
+      "id": "maintenance-service",
+      "description": "A technician servicing an HVAC unit on a rooftop.",
+      "imageUrl": "/images/technician-servicing.jpg",
+      "imageHint": "HVAC service"
+    },
+    {
+      "id": "repairs-service",
+      "description": "A plumber fixing a sink in a modern kitchen.",
+      "imageUrl": "/images/plumber-fixing.jpg",
+      "imageHint": "plumbing repair"
+    },
+    {
+      "id": "cleaning-service",
+      "description": "A clean and sparkling modern office interior after a professional cleaning.",
+      "imageUrl": "/images/sparkling-modern.webp",
+      "imageHint": "clean office"
+    },
+    {
+      "id": "deep-cleaning-service",
+      "description": "A sanitized and clean office breakroom with modern appliances.",
+      "imageUrl": "/images/clean-office.jpg",
+      "imageHint": "clean breakroom"
+    },
+    {
+      "id": "compliance-service",
+      "description": "An inspector with a clipboard reviewing plans on a construction site.",
+      "imageUrl": "/images/clipboard-reviewing.avif",
+      "imageHint": "site inspection"
+    },
+    {
+      "id": "blog-nairobi-office",
+      "description": "A sleek, modern office building in Nairobi.",
+      "imageUrl": "/images/modern-office.jpg",
+      "imageHint": "modern nairobi office"
+    },
+    {
+      "id": "home-construction",
+      "description": "Completed modern residential building.",
+      "imageUrl": "/images/modern-residential.jpg",
+      "imageHint": "completed house"
+    },
+    {
+      "id": "home-maintenance",
+      "description": "Technician repairing an appliance.",
+      "imageUrl": "/images/Technician-repairing.webp",
+      "imageHint": "appliance repair"
+    },
+    {
+      "id": "home-facilities",
+      "description": "Well-maintained commercial building exterior.",
+      "imageUrl": "/images/Well-maintained.jpg",
+      "imageHint": "office building"
+    },
+    {
+      "id": "home-cleaning",
+      "description": "Person cleaning a large window.",
+      "imageUrl": "/images/Person-cleaning.jpg",
+      "imageHint": "window cleaning"
+    }
+  ]
+}
