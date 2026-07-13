@@ -55,7 +55,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-8">
                 <div>
-                    <h3 className="text-2xl font-bold text-primary mb-6 font-headline">Contact Information</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6 font-headline">Contact Information</h3>
                     <p className="text-muted-foreground mb-8 leading-relaxed">
                         Whether you&apos;re planning a new construction project or need expert project management for an ongoing development, we&apos;re here to help. Reach out through any of the channels below.
                     </p>
@@ -87,7 +87,7 @@ const Contact = () => {
                  <div className="bg-gradient-to-br from-primary to-blue-800 text-white rounded-lg p-8 shadow-lg">
                     <div className="flex items-center gap-3 mb-4">
                         <MessageCircle className="h-6 w-6 text-accent" />
-                        <h4 className="text-xl font-semibold font-headline">Why Choose PremiumBuild Management?</h4>
+                        <h4 className="text-xl font-semibold font-headline">Why Choose Facilities Management?</h4>
                     </div>
                     <ul className="space-y-2 text-sm opacity-90">
                         {whyChooseUs.map((reason, i) => <li key={i}>• {reason}</li>)}
