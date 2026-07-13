@@ -30,7 +30,7 @@ const WhatsAppButton = () => {
       >
         <div className="w-full h-full relative animate-swing">
           <Image 
-            src="/whatsapp-icon.jpg"
+            src="/whatsapp-icon.png"
             alt="WhatsApp Logo"
             fill
             className="object-contain drop-shadow-xl"
@@ -58,7 +58,7 @@ const WhatsAppButton = () => {
         <div className="w-20 h-20 relative">
           <div className="w-full h-full animate-swing group-hover:animate-none group-hover:scale-110 transition-transform">
              <Image 
-              src="/whatsapp-icon.jpg"
+              src="/whatsapp-icon.png"
               alt="WhatsApp Logo"
               fill
               className="object-contain pointer-events-none drop-shadow-lg"
