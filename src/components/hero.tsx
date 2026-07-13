@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from 'next/image';
@@ -11,7 +10,7 @@ const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-bg');
 
 const Hero = () => {
     return (
-        <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <section id="hero" className="relative min-h-[90vh] flex items-center overflow-hidden">
             {heroImage && (
                 <Image
                     src={heroImage.imageUrl}
@@ -22,10 +21,10 @@ const Hero = () => {
                     data-ai-hint={heroImage.imageHint}
                 />
             )}
-            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/40" />
 
-            <div className="relative z-10 container mx-auto px-4 w-full">
-                <div className="max-w-2xl text-left text-primary-foreground">
+            <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8">
+                <div className="max-w-[600px] text-left text-primary-foreground">
                     
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6">
                         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg font-bold px-6 py-3 h-auto">
@@ -51,12 +50,12 @@ const Hero = () => {
                         </div>
                     </div>
                     
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight font-headline">
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-[1.1] font-headline">
                         Your Space, Our Responsibility.
                     </h1>
                     
-                    <p className="text-lg sm:text-xl md:text-2xl mb-8 opacity-90">
-                       From groundbreaking new construction to comprehensive ongoing maintenance and immaculate cleaning, Bestcare is your trusted partner for all property needs in Nairobi and Kenya.
+                    <p className="text-lg md:text-xl mb-8 opacity-95">
+                       From groundbreaking new construction to comprehensive ongoing maintenance and immaculate cleaning, Facilities Management is your trusted partner for all property needs in Nairobi and Kenya.
                     </p>
                     
                     <div className="flex flex-col sm:flex-row gap-4">
