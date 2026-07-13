@@ -1,4 +1,3 @@
-
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 
 const blogImage = PlaceHolderImages.find(img => img.id === 'blog-nairobi-office');
@@ -20,7 +19,7 @@ export const blogPosts: BlogPost[] = [
         id: 'beyond-the-borehole',
         slug: 'beyond-the-borehole',
         title: 'Beyond the Borehole: Is Your Nairobi Facility Managed for Efficiency or Emergency?',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'June 15, 2025',
         category: 'Facility Strategy',
         image: blogImage,
@@ -59,7 +58,7 @@ export const blogPosts: BlogPost[] = [
             <p>Well-maintained landscaping, functional lighting in parking areas, and clean, welcoming entrances signal that you are a professional, reputable organization that cares about the people who walk through its doors.</p>
 
             <h3>Partner with a Team That Knows Nairobi</h3>
-            <p>At Bestcare Facilities Management, we understand the unique rhythm and challenges of running a business in Kenya’s capital. We don’t just respond to tickets; we become an extension of your team, providing data-driven insights, local expertise, and reliable service that lets you focus on what you do best: growing your business.</p>
+            <p>At Facilities Management Services, we understand the unique rhythm and challenges of running a business in Kenya’s capital. We don’t just respond to tickets; we become an extension of your team, providing data-driven insights, local expertise, and reliable service that lets you focus on what you do best: growing your business.</p>
             
             <h4>Is your facility an asset or a liability?</h4>
             <p>Ready to move from reactive fixes to proactive strategy? Contact us today for a free, no-obligation facility assessment. Let's build an efficient, safe, and productive environment for your Nairobi business.</p>
@@ -70,7 +69,7 @@ export const blogPosts: BlogPost[] = [
         id: 'securing-water-supply',
         slug: 'securing-water-supply',
         title: 'Securing Your Water Supply in Nairobi',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'May 10, 2025',
         category: 'Water Management',
         content: `
@@ -90,7 +89,7 @@ export const blogPosts: BlogPost[] = [
         id: 'cutting-energy-costs',
         slug: 'cutting-energy-costs',
         title: 'Cutting Energy Costs Without Sacrificing Comfort',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'April 28, 2025',
         category: 'Energy Savings',
         content: `
@@ -111,7 +110,7 @@ export const blogPosts: BlogPost[] = [
         id: 'roi-of-maintenance',
         slug: 'roi-of-maintenance',
         title: 'The ROI of Preventive Maintenance in Facilities',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'April 15, 2025',
         category: 'Maintenance',
         content: `
@@ -132,11 +131,11 @@ export const blogPosts: BlogPost[] = [
         id: 'cleaner-kenya',
         slug: 'cleaner-kenya',
         title: "Cleaner-Kenya: Nairobi's Leading Cleaning Services Provider",
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'March 22, 2025',
         category: 'Cleaning Services',
         content: `
-            <p>Cleaner-Kenya is a premier cleaning services company that has established itself as Nairobi's go-to solution for both residential and commercial cleaning needs. Affiliated with Bestcare Facilities Management Services, Cleaner-Kenya combines professional expertise with reliable service delivery to keep Nairobi's spaces spotless.</p>
+            <p>Cleaner-Kenya is a premier cleaning services company that has established itself as Nairobi's go-to solution for both residential and commercial cleaning needs. Affiliated with Facilities Management Services, Cleaner-Kenya combines professional expertise with reliable service delivery to keep Nairobi's spaces spotless.</p>
             <h4>A Trusted Name in Cleaning Excellence</h4>
             <p>Cleaner-Kenya has built its reputation on a foundation of quality, reliability, and customer satisfaction. Based in Nairobi, the company understands the unique cleaning challenges that come with Kenya's capital city—from the red dust that characterizes the region to the high standards expected in modern residential and commercial spaces. This local expertise, combined with professional training and quality equipment, positions Cleaner-Kenya as a leader in the industry.</p>
             <h4>Comprehensive Residential Cleaning Services</h4>
@@ -144,19 +143,19 @@ export const blogPosts: BlogPost[] = [
             <p>Their residential services encompass everything from regular house cleaning and deep cleaning to specialized services such as carpet cleaning, upholstery cleaning, and window washing. Whether it's a small apartment in Kilimani or a spacious home in Karen, Cleaner-Kenya's trained professionals approach each job with the same level of dedication and attention to detail.</p>
             <h4>Professional Commercial Cleaning Solutions</h4>
             <p>In the commercial sector, Cleaner-Kenya has become the preferred partner for businesses, offices, retail spaces, and institutions across Nairobi. The company understands that a clean workplace is not just about aesthetics—it's about creating a healthy, productive environment that reflects well on your business and keeps employees and customers safe and comfortable.</p>
-            <h4>The Bestcare Facilities Management Connection</h4>
-            <p>The affiliation with Bestcare Facilities Management Services sets Cleaner-Kenya apart from competitors. This relationship means clients can access a broader spectrum of facilities management services beyond cleaning. It's a one-stop solution for businesses and property managers who want comprehensive facility care—from cleaning and maintenance to security and landscaping.</p>
+            <h4>The Facilities Management Connection</h4>
+            <p>The affiliation with Facilities Management Services sets Cleaner-Kenya apart from competitors. This relationship means clients can access a broader spectrum of facilities management services beyond cleaning. It's a one-stop solution for businesses and property managers who want comprehensive facility care—from cleaning and maintenance to security and landscaping.</p>
         `,
     },
     {
         id: 'locksmith-nairobi',
         slug: 'locksmith-nairobi',
         title: 'Do You Need an Experienced Locksmith in Nairobi?',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'March 15, 2025',
         category: 'Locksmith Services',
         content: `
-            <p>When it comes to locksmith services in Kenya, Bestcare Services is the name you can trust. With our state-of-the-art facilities, skilled locksmiths, and unwavering commitment to customer satisfaction, we provide expert solutions for all your security needs.</p>
+            <p>When it comes to locksmith services in Kenya, Facilities Management Services is the name you can trust. With our state-of-the-art facilities, skilled locksmiths, and unwavering commitment to customer satisfaction, we provide expert solutions for all your security needs.</p>
             <p>Our comprehensive locksmith services include:</p>
             <ul>
                 <li>Emergency lockout assistance</li>
@@ -173,12 +172,12 @@ export const blogPosts: BlogPost[] = [
         id: 'housekeeping-cleaning',
         slug: 'housekeeping-cleaning',
         title: 'Find the Best Housekeeping and Cleaning Services in Nairobi',
-        author: 'Bestcare Services',
+        author: 'Facilities Management Services',
         date: 'March 8, 2025',
         category: 'Cleaning Services',
         content: `
             <p>Keeping your home or office clean and organized is essential for comfort and productivity. With the rising demand for professional cleaning services, you may wonder where to find reliable providers in Nairobi.</p>
-            <p>Bestcare Services offers comprehensive housekeeping and cleaning solutions tailored to your specific needs. Our services include:</p>
+            <p>Facilities Management Services offers comprehensive housekeeping and cleaning solutions tailored to your specific needs. Our services include:</p>
             <h4>Residential Cleaning:</h4>
             <ul>
                 <li>Regular house cleaning</li>
