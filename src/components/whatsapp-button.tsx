@@ -1,3 +1,4 @@
+
 'use client';
 
 import Link from 'next/link';
@@ -25,15 +26,16 @@ const WhatsAppButton = () => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        className="fixed right-4 bottom-4 z-50 h-14 w-14 rounded-full bg-green-500 flex items-center justify-center shadow-lg"
+        className="fixed right-4 bottom-4 z-50 h-20 w-20 flex items-center justify-center"
       >
-        <Image 
-          src="/whatsapp-icon.png"
-          alt="WhatsApp Logo"
-          width={32}
-          height={32}
-          className="object-contain"
-        />
+        <div className="w-full h-full relative animate-swing">
+          <Image 
+            src="/logo.jpg"
+            alt="WhatsApp Logo"
+            fill
+            className="object-contain drop-shadow-xl"
+          />
+        </div>
       </Link>
     );
   }
@@ -56,7 +58,7 @@ const WhatsAppButton = () => {
         <div className="w-20 h-20 relative">
           <div className="w-full h-full animate-swing group-hover:animate-none group-hover:scale-110 transition-transform">
              <Image 
-              src="/whatsapp-icon.png"
+              src="/logo.jpg"
               alt="WhatsApp Logo"
               fill
               className="object-contain pointer-events-none drop-shadow-lg"
@@ -68,4 +70,5 @@ const WhatsAppButton = () => {
   );
 };
 
+export default WhatsAppButton;
 export default WhatsAppButton;
