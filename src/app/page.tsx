@@ -1,4 +1,3 @@
-
 import Hero from "@/components/hero";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,7 +9,6 @@ import HomeServices from "@/components/home-services";
 
 const constructionImage = PlaceHolderImages.find(p => p.id === 'home-construction');
 const maintenanceImage = PlaceHolderImages.find(p => p.id === 'home-maintenance');
-const facilitiesImage = PlaceHolderImages.find(p => p.id === 'home-facilities');
 const cleaningImage = PlaceHolderImages.find(p => p.id === 'home-cleaning');
 
 
@@ -203,9 +201,9 @@ export default function Page() {
               </Card>
 
             </div>
-            {facilitiesImage &&
+            {constructionImage &&
               <div className="relative h-96 w-full rounded-xl overflow-hidden shadow-lg">
-                <Image src={facilitiesImage.imageUrl} alt={facilitiesImage.description} fill className="object-cover" data-ai-hint={facilitiesImage.imageHint} />
+                <Image src={constructionImage.imageUrl} alt={constructionImage.description} fill className="object-cover" data-ai-hint={constructionImage.imageHint} />
               </div>
             }
           </div>
@@ -240,7 +238,7 @@ export default function Page() {
       {/* Why Choose Us */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-primary mb-12 font-headline">Why Choose Us?</h2>
+          <h2 className="text-3xl font-bold text-primary mb-12 font-headline">Why Choose Facilities Management Services?</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
             <div className="flex flex-col items-center">
               <CheckCircle className="h-10 w-10 text-accent mb-3" />
@@ -285,7 +283,7 @@ export default function Page() {
                   <Star className="text-accent fill-accent" />
                   <Star className="text-accent fill-accent" />
                 </div>
-                <p className="italic text-muted-foreground mb-4">"Bestcare transformed our construction project from a stressful endeavor into a smooth, well-managed process. Their attention to detail and commitment to quality is unmatched in Nairobi."</p>
+                <p className="italic text-muted-foreground mb-4">"Our construction project went from a stressful endeavor to a smooth, well-managed process. The attention to detail and commitment to quality were truly exceptional."</p>
                 <p className="font-semibold text-primary">- Commercial Developer, Westlands</p>
               </CardContent>
             </Card>
@@ -324,7 +322,7 @@ export default function Page() {
         <div className="container mx-auto px-4">
             <header className="home-services-header">
                 <h1 className="text-4xl">Professional Facility Management Services in Nairobi & Kenya</h1>
-                <p>Bestcare Facilities Management delivers expert hard and soft facility management services across Nairobi and Kenya. We specialize in professional cleaning, pest control, appliance repair, construction, handyman solutions, and moving services. Our experienced team ensures your facilities operate efficiently and safely. Contact us today for reliable, affordable facility management solutions.</p>
+                <p>Facilities Management Services delivers expert hard and soft facility management services across Nairobi and Kenya. We specialize in professional cleaning, pest control, appliance repair, construction, handyman solutions, and moving services. Our experienced team ensures your facilities operate efficiently and safely. Contact us today for reliable, affordable facility management solutions.</p>
             </header>
 
             <main className="services-grid">
