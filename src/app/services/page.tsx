@@ -1,9 +1,8 @@
-
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Paintbrush, Hammer, Building, Users, Shield, DollarSign, Wrench, MessageSquare, FileText, Cog, CheckCircle, Lightbulb, Trash2, Wind, Search, HardHat, Sparkles } from 'lucide-react';
+import { Building, FileText, CheckCircle, Trash2, HardHat, Sparkles } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -12,7 +11,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const constructionImage = PlaceHolderImages.find(img => img.id === 'construction-service');
 const contractImage = PlaceHolderImages.find(img => img.id === 'contract-service');
 const safetyImage = PlaceHolderImages.find(img => img.id === 'safety-service');
-const maintenanceImage = PlaceHolderImages.find(img => img.id === 'maintenance-service');
 const cleaningImage = PlaceHolderImages.find(img => img.id === 'cleaning-service');
 const deepCleaningImage = PlaceHolderImages.find(img => img.id === 'deep-cleaning-service');
 
@@ -150,7 +148,7 @@ const ServicesPage = () => {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-primary font-headline">II. Full Facilities Management Services</h2>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                Bestcare provides a full variety and combination of solutions to ensure your residential or commercial property operates efficiently, safely, and to the highest standard. We manage the complexity so you can focus on your core business. Your space, our responsibility.
+                PremiumBuild provides a full variety and combination of solutions to ensure your residential or commercial property operates efficiently, safely, and to the highest standard. We manage the complexity so you can focus on your core business. Your space, our responsibility.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -310,5 +308,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
-
     
