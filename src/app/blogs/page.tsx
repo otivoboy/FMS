@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -73,8 +72,8 @@ const BlogsPage = () => {
                 <div className="mt-16">
                     <Card>
                         <CardContent className="p-6">
-                            <h2 className="text-2xl font-bold text-primary mb-4">About Bestcare Blog</h2>
-                            <p className="text-muted-foreground mb-6">The Bestcare Blog is your trusted resource for facilities management insights, maintenance tips, and industry trends specific to the Nairobi market. Our team of experts shares practical advice to help businesses and homeowners maintain efficient, safe, and well-managed spaces.</p>
+                            <h2 className="text-2xl font-bold text-primary mb-4">About Facilities Management Blog</h2>
+                            <p className="text-muted-foreground mb-6">Our Blog is your trusted resource for facilities management insights, maintenance tips, and industry trends specific to the Nairobi market. Our team of experts shares practical advice to help businesses and homeowners maintain efficient, safe, and well-managed spaces.</p>
                             <h3 className="text-xl font-semibold text-primary mb-4">Categories Covered</h3>
                             <div className="flex flex-wrap gap-2">
                                 {categories.map(category => (
@@ -83,7 +82,7 @@ const BlogsPage = () => {
                                     </Badge>
                                 ))}
                             </div>
-                            <p className="text-muted-foreground mt-6">Stay connected with Bestcare Services for the latest updates and expert advice on managing your facilities in Nairobi. Contact us today to learn how we can help optimize your space for comfort, efficiency, and productivity.</p>
+                            <p className="text-muted-foreground mt-6">Stay connected with Facilities Management Services for the latest updates and expert advice on managing your facilities in Nairobi. Contact us today to learn how we can help optimize your space for comfort, efficiency, and productivity.</p>
                         </CardContent>
                     </Card>
                 </div>
