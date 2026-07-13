@@ -1,4 +1,3 @@
-
 'use client';
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
@@ -194,7 +193,7 @@ const CareersPage = () => {
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4 font-headline">Join Our Team</h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                        Build Your Career with Nairobi's Leading Facilities Management Company. At Bestcare, we don't just offer jobs - we build careers.
+                        Build Your Career with Nairobi's Leading Facilities Management Company. At PremiumBuild, we don't just offer jobs - we build careers.
                     </p>
                 </div>
             </section>
