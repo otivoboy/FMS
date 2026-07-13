@@ -1,7 +1,6 @@
-
 'use client';
 
-import { Award, Users, Check, GraduationCap, Quote, Building, Shield, Star, Heart, Target, TrendingUp, Handshake } from 'lucide-react';
+import { Award, Users, Check, GraduationCap, Building, Shield, Target, TrendingUp, Handshake } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -58,10 +57,10 @@ const AboutPage = () => {
             </div>
         </section>
 
-        {/* The Bestcare Difference */}
+        {/* The Difference */}
         <section className="py-16 bg-secondary rounded-lg">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-primary font-headline">The Bestcare Difference</h2>
+            <h2 className="text-3xl font-bold text-primary font-headline">The Facilities Management Difference</h2>
             <p className="text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">A unified approach with an expert team.</p>
           </div>
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
